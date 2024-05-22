@@ -1,0 +1,74 @@
+/* Styles for the main div */
+.tutor__main {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the headings */
+.tutor_main {
+  color: #ff6a00;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.tutor_point {
+  color: #0077c0;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the button */
+.white_btn {
+  background-color: #fff;
+  border: 2px solid #3646ff;
+  border-radius: 5px;
+  color: #ff6a00;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.white_btn:hover {
+  background-color: #ff6a00;
+  color: #fff;
+}
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 768px) {
+  .tutor_main {
+    font-size: 36px;
+  }
+
+  .tutor_point {
+    font-size: 24px;
+  }
+
+  .white_btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+/* Media queries for even smaller screens */
+@media only screen and (max-width: 480px) {
+  .tutor_main {
+    font-size: 24px;
+  }
+
+  .tutor_point {
+    font-size: 16px;
+  }
+
+  .white_btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}

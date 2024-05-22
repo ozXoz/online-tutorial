@@ -1,0 +1,33 @@
+.about_main {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1b6ca8;
+  margin-bottom: 2rem;
+}
+
+.about_point {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1b6ca8;
+  margin-bottom: 1rem;
+}
+
+.about_info {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+@media screen and (max-width: 1024px) {
+  .about_main {
+    font-size: 1rem;
+  }
+
+  .about_point {
+    font-size: 1rem;
+  }
+
+  .about_info {
+    font-size: 1rem;
+  }
+}

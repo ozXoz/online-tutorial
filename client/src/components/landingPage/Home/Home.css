@@ -1,0 +1,165 @@
+/* Header benefits */
+.header-benefits {
+    background-color: #EAEAEA;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-benefits a {
+    color: #4B4B4B;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-benefits a:hover {
+    color: #1E90FF;
+}
+
+.header-benefits p {
+    font-size: 1rem;
+    color: #4B4B4B;
+    line-height: 1.5;
+}
+
+/* Header pricing */
+.header-pricing {
+    background-color: #1E90FF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-pricing a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-pricing a:hover {
+    color: #EAEAEA;
+}
+
+.header-pricing p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.canadian-dollar {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Header features */
+.header-features {
+    background-color: #DC143C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-features a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-features a:hover {
+    color: #EAEAEA;
+}
+
+.header-features p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Header tutoring */
+.header-tutoring {
+    background-color: #FF8C00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-tutoring a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-tutoring a:hover {
+    color: #EAEAEA;
+}
+
+.header-tutoring ul {
+    font-size: 1rem;
+    color: #FFF;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.header-tutoring li {
+    margin-bottom: 10px;
+}
+.header-benefits, .header-pricing, .header-features, .header-tutoring {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header-benefits a, .header-pricing a, .header-features a, .header-tutoring a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #37474f;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header-benefits a:hover, .header-pricing a:hover, .header-features a:hover, .header-tutoring a:hover {
+    color: #00bcd4;
+}
+
+.header-benefits p, .header-pricing p, .header-features p, .header-tutoring p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.canadian-dollar {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f44336;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-benefits, .header-pricing, .header-features, .header-tutoring {
+        text-align: left;
+    }
+
+    .header-benefits a, .header-pricing a, .header-features a, .header-tutoring a {
+        font-size: 24px;
+    }
+
+    .canadian-dollar {
+        font-size: 28px;
+    }
+}

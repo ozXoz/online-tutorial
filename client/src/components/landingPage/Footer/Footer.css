@@ -1,0 +1,18 @@
+.by-footer {
+    background-color: #f8e0e0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(176, 187, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #0924d5;
+    margin-top: 2rem;
+}
+
+.by-footer h6 {
+    font-size: 30px;
+}
+.by-footer span {
+    font-weight: bold;
+}

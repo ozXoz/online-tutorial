@@ -1,0 +1,57 @@
+.page-title {
+    font-size: 36px;
+    margin-bottom: 4px;
+}
+
+.main-menu {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.main-menu td {
+    padding: 1px;
+}
+
+.main-menu .profile {
+    background-color: #009432;
+}
+
+.main-menu .get-help {
+    background-color: #fbc531;
+}
+
+.main-menu .blog-post {
+    background-color: #b2bec3;
+}
+
+.main-menu .sign-out {
+    background-color: #ea2027;
+}
+
+.main-menu .update-information {
+    background-color: #0652DD;
+}
+
+.main-menu .close-account {
+    background-color: #eb4d4b;
+}
+
+.main-menu a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+}
+
+.student-menu-text {
+    display: block;
+    padding: 5px 0;
+}

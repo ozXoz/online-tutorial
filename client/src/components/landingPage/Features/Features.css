@@ -1,0 +1,39 @@
+.features-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1b6ca8;
+    margin-bottom: .2rem;
+  }
+  
+  .features-main {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1b6ca8;
+  }
+  
+  .features-info {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .features-title {
+      font-size: 2rem;
+    }
+    
+    .features-main {
+      font-size: 1rem;
+    }
+    
+    .features-info {
+      font-size: 1rem;
+    }
+  }
+  
+  
